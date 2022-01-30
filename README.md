@@ -5,8 +5,8 @@ Metaballs tables/original C code from Paul Bourke - http://www.paulbourke.net/ge
 
 https://github.com/blitzcode/rust-exp was a great learning source.
 
-Blob generation/vertex transformation & rasterization is all parallelizd with Rayon, but not super safe (especially blob generation), could not find a good way to use Rayon as a "producer".
+Blob generation/vertex transformation & rasterization is all parallelized with Rayon, but not super safe (especially blob generation), could not find a good way to use Rayon as a "producer".
 
 ![Video](video.gif "Short video")
 
-Press SPACE to enabled/disable lighting.
+Press SPACE to enable/disable lighting.
